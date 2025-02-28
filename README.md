@@ -41,6 +41,9 @@ pipe = HuggingfacePipeline()  #returns the pipeline only
 output = pipe(self.text, max_new_tokens=self.max_new_tokens)  # Limit output length to save memory
 # Print the generated output
 print(output)
-  
 ```
+
+## example
+Example in Colab
+(supertransformer.ipynb)[supertransformer.ipynb]
 
