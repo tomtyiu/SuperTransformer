@@ -1,6 +1,6 @@
 # SuperTransformer
 
-Suptertransformer for Huggingface Transformers class
+Suptertransformer that auto loads Huggingface models 
 
 # Introduction
 This is a single line transformer for easy to load models from Huggingface.
