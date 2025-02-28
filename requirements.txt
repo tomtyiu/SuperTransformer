@@ -63,7 +63,6 @@ contourpy==1.2.1
 crashtest==0.4.1
 cryptography==43.0.3
 ctranslate2==4.1.0
-cut-cross-entropy==24.12.3
 cx_Freeze==6.15.16
 cx_Logging==3.1.0
 cycler==0.12.1
