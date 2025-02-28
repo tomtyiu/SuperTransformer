@@ -8,6 +8,12 @@ This is a single line transformer for easy to load models from Huggingface.
 # Usage
 SuperTransformers download the model locally.  The super class uses AutoTokenizer and AutoModelForCausalLM.from_pretrained.
 
+# Installation
+``` bash
+pip install bitsandbytes>=0.39.0
+pip install --upgrade accelerate transformers
+```
+
 # Example of usage:
  
 ```python
