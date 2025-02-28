@@ -504,7 +504,6 @@ traitlets==5.14.2
 transformers==4.49.0
 trio==0.28.0
 trio-websocket==0.11.1
-triton @ https://github.com/woct0rdho/triton-windows/releases/download/v3.2.0-windows.post10/triton-3.2.0-cp312-cp312-win_amd64.whl#sha256=5cc7e1b7ac06844d9c7beb36d5729a31bc37522836cdd35f7f4d69e3706af9d4
 trl==0.9.6
 trove-classifiers==2024.5.22
 txaio==23.1.1
