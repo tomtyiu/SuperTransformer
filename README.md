@@ -16,5 +16,19 @@ SuperTransformers = SuperTransformers("EpistemeAI/ReasoningCore-3B-RE1-V2","You 
 SuperTransformers.HuggingFaceTransformer8bit()
 # or 4-bit quantization
 SuperTransformers.HuggingFaceTransformer4bit()
-
 ```
+
+#Other usage
+```python
+SuperTransformers = SuperTransformers("EpistemeAI/ReasoningCore-3B-RE1-V2")
+model, tokenizer = HuggingfaceTransfomer()  #returns the model and tokenizer
+```
+```python
+SuperTransformers = SuperTransformers("EpistemeAI/ReasoningCore-3B-RE1-V2")
+pipe = HuggingfacePipeline()  #returns the pipeline only
+output = pipe(self.text, max_new_tokens=self.max_new_tokens)  # Limit output length to save memory
+# Print the generated output
+print(output)
+  
+```
+
