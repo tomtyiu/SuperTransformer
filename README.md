@@ -44,6 +44,5 @@ print(output)
 ```
 
 ## example
-Example in Colab
-(supertransformer.ipynb)[supertransformer.ipynb]
+Example in Colab- [supertransformer.ipynb](supertransformer.ipynb)
 
