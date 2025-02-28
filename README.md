@@ -13,6 +13,10 @@ SuperTransformers download the model locally.  The super class uses AutoTokenize
 pip install bitsandbytes>=0.39.0
 pip install --upgrade accelerate transformers
 ```
+# How to run
+```python
+python SuperTransformer.py
+```
 
 # Example of usage:
  
