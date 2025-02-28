@@ -6,7 +6,7 @@ Suptertransformer for Huggingface Transformers class
 This is a single line transformer for easy to load models from Huggingface.
 
 # Usage
-SuperTransformers download the model locally.  The super class usea AutoTokenizer and AutoModelForCausalLM.from_pretrained.
+SuperTransformers download the model locally.  The super class uses AutoTokenizer and AutoModelForCausalLM.from_pretrained.
 
 # Example of usage:
 ```python
