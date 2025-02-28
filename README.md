@@ -18,11 +18,12 @@ SuperTransformers.HuggingFaceTransformer8bit()
 SuperTransformers.HuggingFaceTransformer4bit()
 ```
 
-#Other usage
+# Returns model and tokenizer
 ```python
 SuperTransformers = SuperTransformers("EpistemeAI/ReasoningCore-3B-RE1-V2")
 model, tokenizer = HuggingfaceTransfomer()  #returns the model and tokenizer
 ```
+# returne pipline as higher helper
 ```python
 SuperTransformers = SuperTransformers("EpistemeAI/ReasoningCore-3B-RE1-V2")
 pipe = HuggingfacePipeline()  #returns the pipeline only
