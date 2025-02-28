@@ -3,7 +3,7 @@
 Suptertransformer that auto loads Huggingface models 
 
 # Introduction
-This is a single line transformer for easy to load models from Huggingface.
+This is a single line transformer for easy to load models from Huggingface.  It is not to replace Huggingface Transformer process.  It simplifies it and speed up the loading the process of the HuggingFace models
 
 # Usage
 SuperTransformers download the model locally.  The super class uses AutoTokenizer and AutoModelForCausalLM.from_pretrained.
