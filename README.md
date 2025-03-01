@@ -13,6 +13,13 @@ SuperTransformers download the model locally.  The super class uses AutoTokenize
 pip install bitsandbytes>=0.39.0
 pip install --upgrade accelerate transformers
 ```
+# Setup Virtual Environment
+Create a virtual environment with uv (refer to Installation for installation instructions), a fast Rust-based Python package and project manager.
+``` bash
+uv venv my-env
+source my-env/bin/activate
+```
+
 # How to run
 ```python
 python SuperTransformer.py
